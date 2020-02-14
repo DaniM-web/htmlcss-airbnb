@@ -3,40 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
-section{
-  width: 100%;
+section {
+  width: 100vw;
   height: 100vh;
 }
 
 .roma {
   width: 100%;
-  height: 100%;
-  background-image: url("img/roma.jpg");
+  height: 400px;
+  background-image: url("img/roma3.png");
   background-size: cover;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .londra {
   width: 100%;
-  height: 100%;
-  background-image: url("img/londra.jpg");
+  height: 400px;
+  background-image: url("img/londra2.png");
   background-size: cover;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .tokyo {
   width: 100%;
-  height: 100%;
-  background-image: url("img/tokyo.jpg");
+  height: 400px;
+  background-image: url("img/tokyo.png");
   background-size: cover;
   position: relative;
 }
 
+.roma, .londra, .tokyo {
+  margin: 10px 0;
+}
+
 #city {
-  color: red;
+  color: white;
   font-style: italic;
+  opacity: 85%;
   font-size: 35px;
   position: absolute;
   top: 50%;
@@ -49,5 +52,5 @@ section{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(184, 191, 188, 0.2)
+  background-color: rgba(204, 204, 255, 0.2)
  }
